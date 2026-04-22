@@ -1,0 +1,88 @@
+[
+  {
+    "format": "pt",
+    "model_path": "models/best.pt",
+    "model_size_mb": 6.27,
+    "total_frames": 3954,
+    "total_time_sec": 40.45,
+    "avg_inference_ms": 5.1,
+    "median_inference_ms": 4.89,
+    "p95_inference_ms": 6.97,
+    "min_inference_ms": 3.49,
+    "max_inference_ms": 14.17,
+    "fps": 196.14,
+    "total_detections": 22199,
+    "avg_detections_per_frame": 5.61,
+    "avg_confidence": 0.7893,
+    "cpu_avg_pct": 13.28,
+    "cpu_max_pct": 47.9,
+    "ram_avg_mb": 3341.53,
+    "ram_max_mb": 3343.04,
+    "gpu_util_avg_pct": 22.25,
+    "gpu_util_max_pct": 40.0,
+    "gpu_mem_avg_mb": 790.1,
+    "gpu_mem_max_mb": 790.1
+  },
+  {
+    "format": "onnx",
+    "model_path": "models/best.onnx",
+    "model_size_mb": 12.27,
+    "total_frames": 3954,
+    "total_time_sec": 42.53,
+    "avg_inference_ms": 5.63,
+    "median_inference_ms": 5.47,
+    "p95_inference_ms": 7.13,
+    "min_inference_ms": 4.23,
+    "max_inference_ms": 10.69,
+    "fps": 177.55,
+    "total_detections": 21865,
+    "avg_detections_per_frame": 5.53,
+    "avg_confidence": 0.794,
+    "cpu_avg_pct": 13.98,
+    "cpu_max_pct": 73.8,
+    "ram_avg_mb": 3459.99,
+    "ram_max_mb": 3461.19,
+    "gpu_util_avg_pct": 30.13,
+    "gpu_util_max_pct": 33.0,
+    "gpu_mem_avg_mb": 926.42,
+    "gpu_mem_max_mb": 926.42
+  },
+  {
+    "format": "engine",
+    "model_path": "models/best.engine",
+    "model_size_mb": 7.69,
+    "total_frames": 3954,
+    "total_time_sec": 34.92,
+    "avg_inference_ms": 3.62,
+    "median_inference_ms": 3.46,
+    "p95_inference_ms": 5.2,
+    "min_inference_ms": 2.52,
+    "max_inference_ms": 10.85,
+    "fps": 276.0,
+    "total_detections": 21870,
+    "avg_detections_per_frame": 5.53,
+    "avg_confidence": 0.7939,
+    "cpu_avg_pct": 14.63,
+    "cpu_max_pct": 33.8,
+    "ram_avg_mb": 3520.36,
+    "ram_max_mb": 3521.52,
+    "gpu_util_avg_pct": 17.7,
+    "gpu_util_max_pct": 31.0,
+    "gpu_mem_avg_mb": 838.34,
+    "gpu_mem_max_mb": 838.34
+  },
+  {
+    "parity": {
+      "onnx": {
+        "frame_match_pct": 85.26,
+        "avg_abs_diff_per_frame": 0.162,
+        "total_det_diff_pct": -1.5
+      },
+      "engine": {
+        "frame_match_pct": 85.53,
+        "avg_abs_diff_per_frame": 0.159,
+        "total_det_diff_pct": -1.48
+      }
+    }
+  }
+]
